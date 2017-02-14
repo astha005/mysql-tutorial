@@ -43,7 +43,8 @@ INSERT INTO sql3157590.CAMPAIGN VALUES(1,"SPEED_X",1,500,1);
 |3.    | Find total amount requested of all active campaigns?| select sum(amount) from sql3157590.ORDERS
 |4.    | Find total requested amount for all inactive campaigns?|
 |5.    | Find total customers who are California residents? | SELECT DISTINCT state FROM sql3157590.CUSTOMER where state LIKE"C%";
-|6.    | Find total customers who have email @gmail.com? |
+|6.    | Find total customers who have email @gmail.com? | SELECT email FROM sql3157590.CUSTOMER WHERE EMAIL LIKE '%GMAIL.COM';
+
 |7.    | Find total orders on active campaigns? |
 |8.    | For each active campaign, list down campaign requester,total amount requested and total unfunded amount|
 |9.    | Find the campaign that has highest number of orders recieved? |
