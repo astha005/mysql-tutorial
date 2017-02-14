@@ -46,3 +46,6 @@ INSERT INTO sql3157590.CAMPAIGN VALUES(1,"SPEED_X",1,500,1);
 |6.    | Find total customers who have email @gmail.com? |
 |7.    | Find total orders on active campaigns? |
 |8.    | For each active campaign, list down campaign requester,total amount requested and total unfunded amount|
+|9.    | Find the campaign that has highest number of orders recieved? |
+|10.   | Find the contributor who has maximum number of orders |
+
