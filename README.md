@@ -40,8 +40,8 @@ INSERT INTO sql3157590.CAMPAIGN VALUES(1,"SPEED_X",1,500,1);
 |------|----------|-------|
 |1.    |Find total active campaigns?| select count(*) from sql3157590.CAMPAIGN where active = 1
 |2.    | Find total inactive campaigns?| SELECT COUNT(*) FROM sql3157590.CAMPAIGN WHERE ACTIVE=0
-
 |3.    | Find total amount requested of all active campaigns?| select sum(amount) from sql3157590.ORDERS
+
 |4.    | Find total requested amount for all inactive campaigns?|
 |5.    | Find total customers who are California residents? |
 |6.    | Find total customers who have email @gmail.com? |
