@@ -38,4 +38,6 @@ INSERT INTO sql3157590.CAMPAIGN VALUES(1,"SPEED_X",1,500,1);
 
 | S.No | Question | Query | 
 |------|----------|-------|
-|1.    |Find total active campaigns?| select count(*) from sql3157590.CAMPAIGN where active = 1|
+|1.    |Find total active campaigns?| select count(*) from sql3157590.CAMPAIGN where active = 1
+|2.    | Find total inactive campaigns?|
+|3.    | Find total amount requested of all active campaigns?|
