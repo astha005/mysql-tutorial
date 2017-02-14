@@ -33,3 +33,9 @@ create table sql3157590.CAMPAIGN (CAMPAIGN_ID INTEGER PRIMARY KEY,CAMPAIGN_NAME 
 
 INSERT INTO sql3157590.CAMPAIGN VALUES(1,"SPEED_X",1,500,1);
 ```
+
+### PRACTICE QUESTIONS ###
+
+| S.No | Question | Query | 
+|------|----------|-------|
+|1.    |Find total active campaigns?| select count(*) from sql3157590.CAMPAIGN where active = 1|
