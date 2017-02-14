@@ -45,3 +45,4 @@ INSERT INTO sql3157590.CAMPAIGN VALUES(1,"SPEED_X",1,500,1);
 |5.    | Find total customers who are California residents? |
 |6.    | Find total customers who have email @gmail.com? |
 |7.    | Find total orders on active campaigns? |
+|8.    | For each active campaign, list down campaign requester,total amount requested and total unfunded amount|
